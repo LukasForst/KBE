@@ -1,0 +1,10 @@
+name: tls
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.1
+  - pip
+  - jupyterlab
+  - pycryptodomex
+  - pip:
+      - pkcs7
